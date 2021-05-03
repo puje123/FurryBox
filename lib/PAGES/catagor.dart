@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:furry_box/Components/dogs.dart';
 import 'package:furry_box/Components/cats.dart';
 import 'package:furry_box/Components/birds.dart';
-import 'package:furry_box/Components/popular.dart';
 
 class Catagor extends StatefulWidget {
   Catagor({Key key, @required this.animal}) : super(key: key);

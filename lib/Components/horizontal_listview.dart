@@ -41,6 +41,7 @@ class Category extends StatelessWidget {
       child: InkWell(
         onTap: () => Navigator.of(context).push(MaterialPageRoute(
             builder: (context) => new Catagor(animal: image_caption))),
+
         child: Container(
           width: 100,
           child: ListTile(
