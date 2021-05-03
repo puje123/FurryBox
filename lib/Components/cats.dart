@@ -1,20 +1,32 @@
 import 'package:flutter/material.dart';
 import 'package:furry_box/PAGES/pet_details.dart';
 
-class popular extends StatefulWidget {
+class cats extends StatefulWidget {
   @override
   _popularState createState() => _popularState();
 }
 
-class _popularState extends State<popular> {
+class _popularState extends State<cats> {
   var popular_list = [
     {
-      'name': 'Doberman  ',
-      'picture': 'assets/images/popular/Doberman.jpg',
+      'name': 'Khao Manee',
+      'picture': 'assets/images/cats/Khaomanee.jpg'
     },
     {
-      'name': 'Bengal Cat',
+      'name': 'Bengal',
       'picture': 'assets/images/popular/Bengal.jpg',
+    },
+    {
+      'name': 'Siamese',
+      'picture': 'assets/images/cats/Siamese.jpg'
+    },
+    {
+      'name': 'Sphynx',
+      'picture': 'assets/images/cats/Sphynx.jpg'
+    },
+    {
+      'name': 'Persian ',
+      'picture': 'assets/images/cats/Persian.jpg'
     },
   ];
   @override
@@ -22,7 +34,7 @@ class _popularState extends State<popular> {
     return GridView.builder(
         itemCount: popular_list.length,
         gridDelegate:
-            SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+        SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
         itemBuilder: (BuildContext context, int index) {
           return single_popular(
             popular_name: popular_list[index]['name'],

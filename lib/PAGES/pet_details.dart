@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:furry_box/Components/popular.dart';
 
-
 class PetDetails extends StatefulWidget {
-  final popular_detail_name;
-  final popular_detail_picture;
+  final String animal_name;
+  final detail_picture;
 
   PetDetails({
-    this.popular_detail_name,
-    this.popular_detail_picture,
+    this.animal_name,
+    this.detail_picture,
   });
 
   @override
@@ -18,6 +17,7 @@ class PetDetails extends StatefulWidget {
 class _PetDetailsState extends State<PetDetails> {
   @override
   Widget build(BuildContext context) {
+    final description = 'hello';
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
@@ -39,13 +39,13 @@ class _PetDetailsState extends State<PetDetails> {
           child: new GridTile(
             child: Container(
               color: Colors.white70,
-              child: Image.asset(widget.popular_detail_picture),
+              child: Image.asset(widget.detail_picture),
             ),
             footer: new Container(
               color: Colors.white,
               child: ListTile(
                 title: Text(
-                  widget.popular_detail_name,
+                  widget.animal_name,
                   style: TextStyle(fontWeight: FontWeight.bold),
                 ),
               ),
@@ -53,11 +53,7 @@ class _PetDetailsState extends State<PetDetails> {
           ),
         ),
         Divider(),
-        new ListTile(
-          title: Text('Pet Details'),
-          subtitle: Text(
-              'Doberman Pinschers originated in Germany during the late 19th century, mostly bred as guard dogs. Their exact ancestry is unknown, but they’re believed to be a mixture of many dog breeds, including the Rottweiler, Black and Tan Terrier, and German Pinscher. With their sleek coat, athletic build, and regal appearance, this pup looks like an aristocrat. They’re highly energetic and smart dogs who perform well in police and military work, canine sports, and as family guardians and companions. Remember, you can find just about any breed of dog at local shelters and rescues. If you decide that this is the breed for you, adopt! Don’t shop! DogTime recommends this big, spacious crate to give your big Doberman Pinscher a place to rest and relax. You should also pick up this dog brush and massager for your short-haired pup!'),
-        ),
+        new ListTile(title: Text('Pet Details'), subtitle: Text(description)),
       ]),
     );
   }

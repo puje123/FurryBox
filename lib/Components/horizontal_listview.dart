@@ -39,8 +39,8 @@ class Category extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(2.0),
       child: InkWell(
-        onTap: () => Navigator.of(context)
-            .push(MaterialPageRoute(builder: (context) => new catagor())),
+        onTap: () => Navigator.of(context).push(MaterialPageRoute(
+            builder: (context) => new Catagor(animal: image_caption))),
         child: Container(
           width: 100,
           child: ListTile(

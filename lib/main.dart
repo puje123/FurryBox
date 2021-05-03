@@ -4,7 +4,8 @@ import 'package:carousel_pro/carousel_pro.dart';
 //MY IMPORTS
 import 'package:furry_box/Components/horizontal_listview.dart';
 import 'package:furry_box/Components/popular.dart';
-import 'package:furry_box/PAGES/pet_details.dart';
+
+import 'PAGES/catagor.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -84,7 +85,7 @@ class _HomePageState extends State<HomePage> {
             ),
             InkWell(
               onTap: () => Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (context) => new catagor())),,
+                  .push(MaterialPageRoute(builder: (context) => Catagor(animal: 'dog',))),
               child: ListTile(
                 title: Text('Categories'),
                 leading: Icon(
