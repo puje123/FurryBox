@@ -3,15 +3,15 @@ import 'package:furry_box/Components/dogs.dart';
 import 'package:furry_box/Components/cats.dart';
 import 'package:furry_box/Components/birds.dart';
 
-class Catagor extends StatefulWidget {
-  Catagor({Key key, @required this.animal}) : super(key: key);
+class catagor extends StatefulWidget {
+  catagor({Key key, @required this.animal}) : super(key: key);
   final String animal;
 
   @override
-  _CatagorState createState() => _CatagorState();
+  _catagorState createState() => _catagorState();
 }
 
-class _CatagorState extends State<Catagor> {
+class _catagorState extends State<catagor> {
   @override
   Widget build(BuildContext context) {
     if (widget.animal == 'Bird') {

@@ -4,8 +4,10 @@ import 'package:carousel_pro/carousel_pro.dart';
 //MY IMPORTS
 import 'package:furry_box/Components/horizontal_listview.dart';
 import 'package:furry_box/Components/popular.dart';
+import 'package:furry_box/PAGES/Catagor_page.dart';
 
-import 'PAGES/catagor.dart';
+
+import 'Components/catagor.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -30,9 +32,6 @@ class _HomePageState extends State<HomePage> {
           AssetImage('assets/images/slider/1.jpg'),
           AssetImage('assets/images/slider/2.jpg'),
           AssetImage('assets/images/slider/3.jpg'),
-          AssetImage('assets/images/slider/4.jpg'),
-          AssetImage('assets/images/slider/5.jpg'),
-          AssetImage('assets/images/slider/6.jpg'),
         ],
         autoplay: true,
         animationCurve: Curves.fastOutSlowIn,
@@ -85,7 +84,7 @@ class _HomePageState extends State<HomePage> {
             ),
             InkWell(
               onTap: () => Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (context) => Catagor(animal: 'dog',))),
+                  .push(MaterialPageRoute(builder: (context) => HorizontalListCatagor())),
               child: ListTile(
                 title: Text('Categories'),
                 leading: Icon(
@@ -116,7 +115,7 @@ class _HomePageState extends State<HomePage> {
 
           Padding(
             padding: const EdgeInsets.all(20),
-            child: Text('Popular'),
+            child: Text('Top pets'),
           ),
 
 //GRID VIEW

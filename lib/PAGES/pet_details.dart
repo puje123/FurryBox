@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:furry_box/Components/popular.dart';
 
 class PetDetails extends StatefulWidget {
-  final String animal_name;
-  final detail_picture;
+  final String name;
+  final picture;
+  final String description;
 
   PetDetails({
-    this.animal_name,
-    this.detail_picture,
+    this.name,
+    this.picture,
+    this.description,
   });
 
   @override
@@ -17,21 +19,13 @@ class PetDetails extends StatefulWidget {
 class _PetDetailsState extends State<PetDetails> {
   @override
   Widget build(BuildContext context) {
-    final description = 'hello';
+
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Colors.deepOrange[600],
         title: Text('Furry Box 1.0'),
         centerTitle: true,
-        actions: [
-          IconButton(
-              icon: Icon(
-                Icons.search,
-                color: Colors.white,
-              ),
-              onPressed: () {}),
-        ],
       ),
       body: ListView(children: [
         Container(
@@ -39,13 +33,13 @@ class _PetDetailsState extends State<PetDetails> {
           child: new GridTile(
             child: Container(
               color: Colors.white70,
-              child: Image.asset(widget.detail_picture),
+              child: Image.asset(widget.picture),
             ),
             footer: new Container(
               color: Colors.white,
               child: ListTile(
                 title: Text(
-                  widget.animal_name,
+                  widget.name,
                   style: TextStyle(fontWeight: FontWeight.bold),
                 ),
               ),
@@ -53,7 +47,7 @@ class _PetDetailsState extends State<PetDetails> {
           ),
         ),
         Divider(),
-        new ListTile(title: Text('Pet Details'), subtitle: Text(description)),
+        new ListTile(title: Text('Information'), subtitle: Text(widget.description),),
       ]),
     );
   }
