@@ -48,7 +48,10 @@ flutter:
 
 
   assets:
-    - assets/images/cat.png
+    - assets/images/cats.jpg
+    - assets/images/dogs.jpg
+    - assets/images/birds.jpg
+    - assets/images/LOGO.png
     - assets/images/slider/1.jpg
     - assets/images/slider/2.jpg
     - assets/images/slider/3.jpg
@@ -69,6 +72,7 @@ flutter:
     - assets/images/dogs/GermanShepherds.jpg
     - assets/images/dogs/GoldenRetrievers.jpg
     - assets/images/dogs/LabradorRetrievers.jpg
+    -
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'file:///C:/Users/DELL/AndroidStudioProjects/furry_box/lib/Components/catagor.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/widgets.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -19,20 +21,20 @@ class HorizontalListCatagor extends StatelessWidget {
         centerTitle: true,
       ),
       body: Container(
-        height: 100,
+        height: 1000,
+        width: 1000,
         child: ListView(
-          scrollDirection: Axis.horizontal,
           children: [
             Category(
-              image_location: 'assets/images/logos/dog.png',
+              image_location: 'assets/images/dogs.jpg',
               image_caption: 'Dogs',
             ),
             Category(
-              image_location: 'assets/images/logos/cat.png',
+              image_location: 'assets/images/cats.jpg',
               image_caption: 'Cats',
             ),
             Category(
-              image_location: 'assets/images/logos/bird.png',
+              image_location: 'assets/images/birds.jpg',
               image_caption: 'Bird',
             ),
           ],
@@ -56,20 +58,21 @@ class Category extends StatelessWidget {
         onTap: () => Navigator.of(context).push(MaterialPageRoute(
             builder: (context) => new catagor(animal: image_caption))),
         child: Container(
-          width: 130,
+          width: 500,
           child: ListTile(
-              title: Image.asset(
-                image_location,
-                width: 100,
-                height: 80,
+            title: Container(
+              child: Text(
+                image_caption,
+                style: TextStyle(fontSize: 12),
               ),
-              subtitle: Container(
-                alignment: Alignment.topCenter,
-                child: Text(
-                  image_caption,
-                  style: TextStyle(fontSize: 12),
-                ),
-              )),
+            ),
+            subtitle: Image.asset(
+              image_location,
+              height: 90,
+              alignment: Alignment.topLeft,
+              fit: BoxFit.fill,
+            ),
+          ),
         ),
       ),
     );

@@ -6,7 +6,6 @@ import 'package:furry_box/Components/horizontal_listview.dart';
 import 'package:furry_box/Components/popular.dart';
 import 'package:furry_box/PAGES/Catagor_page.dart';
 
-
 import 'Components/catagor.dart';
 
 void main() {
@@ -53,27 +52,28 @@ class _HomePageState extends State<HomePage> {
           children: [
 //PUJEGIN DRAWER HEADER
 
-            UserAccountsDrawerHeader(
-              accountName: Text('Mighty Puje'),
-              accountEmail: Text('nzireus@gmail.com'),
-              currentAccountPicture: GestureDetector(
-                child: CircleAvatar(
-                  backgroundColor: Colors.white,
-                  child: Icon(
-                    Icons.person,
-                    color: Colors.black,
+            DrawerHeader(
+                decoration:BoxDecoration(
+                  gradient: LinearGradient(colors: <Color>[
+                    Colors.deepOrange,
+                    Colors.orangeAccent
+                  ])
+                ) ,
+                child: Container(
+                  child: Column(
+                    children: [
+                      Material(
+                        borderRadius: BorderRadius.all(Radius.circular(50)),
+                        child: Image.asset('assets/images/LOGO.png', width: 120, height: 120,),
+                      )
+                    ],
                   ),
-                ),
-              ),
-              decoration: BoxDecoration(
-                color: Colors.deepOrange[500],
-              ),
-            ),
+                )),
 
 //BODY
             InkWell(
-              onTap: () => Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (context) => new HomePage())),
+              onTap: () => Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => new HomePage())),
               child: ListTile(
                 title: Text('Home Page'),
                 leading: Icon(
@@ -83,8 +83,8 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
             InkWell(
-              onTap: () => Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (context) => HorizontalListCatagor())),
+              onTap: () => Navigator.of(context).push(MaterialPageRoute(
+                  builder: (context) => HorizontalListCatagor())),
               child: ListTile(
                 title: Text('Categories'),
                 leading: Icon(
