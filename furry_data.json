@@ -1,0 +1,73 @@
+{
+  "birds": [
+    {
+      "name": "Cockatiels",
+      "url": "https://raw.githubusercontent.com/suragch/furry_box_data/main/images/canary.png",
+      "description": "The cockatiel (Nymphicus hollandicus), also known as weiro bird, or quarrion, is a small parrot that is a member of its own branch of the cockatoo family endemic to Australia. They are prized as household pets and companion parrots throughout the world and are relatively easy to breed. As a caged bird, cockatiels are second in popularity only to the budgerigar."
+    },
+    {
+      "name": "Budgies",
+      "url": "https://github.com/puje/asdjhajk/canary.jpeg",
+      "description": "The budgerigar is a small, long-tailed, seed-eating parrot usually nicknamed the budgie , or in American English, the parakeet. Budgies are the only species in the genus Melopsittacus. Naturally, the species is green and yellow with black, scalloped markings on the nape, back, and wings. Budgies are bred in captivity with colouring of blues, whites, yellows, greys, and even with small crests. Juveniles and chicks are monomorphic, while adults are told apart by their cere colouring, and their behaviour."
+    },
+     {
+      "name": "Canaries",
+      "url": "https://github.com/puje/asdjhajk/canary.jpeg",
+      "description": "The Atlantic canary (Serinus canaria), known worldwide simply as the wild canary and also called the island canary, common canary, or canary, is a small passerine bird belonging to the genus Serinus in the finch family, Fringillidae. It is native to the Canary Islands, the Azores, and Madeira. Wild birds are mostly yellow-green, with brownish streaking on the back. The species is common in captivity and a number of colour varieties have been bred. This bird is the natural symbol of the Canary Islands, together with the Canary Island date palm."
+    }
+  ],
+  "dogs": [
+    {
+      "name": "Dobermann",
+      "url": "https://github.com/puje/asdjhajk/dobermin.jpeg",
+      "description": "The Dobermann,or Doberman Pinscher in the United States and Canada, is a medium-large breed of domestic dog that was originally developed around 1890 by Karl Friedrich Louis Dobermann, a tax collector from Germany. The Dobermann has a long muzzle. It stands on its pads and is not usually heavy-footed. Ideally, they have an even and graceful gait. Traditionally, the ears were cropped and posted and the tail was docked. However, in some countries, these procedures are now illegal. Dobermanns have markings on the chest, paws/legs, muzzle, above the eyes, and underneath the tail."
+    },
+    {
+      "name": "Labrador Retriever",
+      "url": "https://github.com/puje/asdjhajk/shephard.jpeg",
+      "description": "The Labrador Retriever, often abbreviated to Labrador, is a medium-large gun dog from the United Kingdom that was developed from imported Canadian fishing dogs. The Labrador is one of the most popular dog breeds in a number of countries in the world, particularly in the Western world. A popular disability assistance breed in many countries, Labradors are frequently trained to aid those with blindness or autism, act as a therapy dog, or perform screening and detection work for law enforcement and other official agencies.[1] The breed is best known for their obedience, loyalty, and playful composure. Additionally, they are prized as sporting and hunting dogs. Ancestors include a breed used in Newfoundland as fishing dogs, that would help in bringing in the fishing nets and recapture escaped fish."
+    },
+     {
+      "name": "German Shepherd",
+      "url": "https://github.com/puje/asdjhajk/shephard.jpeg",
+      "description": "The German Shepherd is a breed of medium to large-sized working dog that originated in Germany. According to the FCI, the breeds English language name is German Shepherd Dog. The breed was officially[who?] known as the "Alsatian Wolf Dog" in the UK from after the First World War until 1977 when its name was changed back to German Shepherd.[2] Despite its wolf-like appearance, the German Shepherd is a relatively modern breed of dog, with its origin dating to 1899."
+    },
+     {
+      "name": "French Bulldogs",
+      "url": "https://github.com/puje/asdjhajk/shephard.jpeg",
+      "description": "The French Bulldog (French: bouledogue or bouledogue français) is a breed of domestic dog, bred to be companion dogs. The breed is the result of a cross between Toy Bulldogs imported from England, and local ratters in Paris, France, in the 1800s. They are stocky, compact dogs with a friendly, mild-mannered temperament. The breed is popular as a pet: in 2019, they were the second-most popular registered dog in the United Kingdom, and the fourth-most popular AKC-registered dog breed in the United States. They were rated the third-most popular dog in Australia in 2017. In 2019, in the United Kingdom, the French Bulldog had 375 export pedigrees and a total of 33,661 registered dogs. By comparison, the Labrador Retriever had over 35,000 dogs and the Cocker Spaniel fewer than 22,000."
+    },
+     {
+      "name": "Golden Retriever",
+      "url": "https://github.com/puje/asdjhajk/shephard.jpeg",
+      "description": "The Golden Retriever is a medium-large gun dog that was bred to retrieve shot waterfowl, such as ducks and upland game birds, during hunting and shooting parties.The name "retriever" refers to the breeds ability to retrieve shot game undamaged due to their soft mouth. Golden retrievers have an instinctive love of water, and are easy to train to basic or advanced obedience standards. They are a long-coated breed, with a dense inner coat that provides them with adequate warmth in the outdoors, and an outer coat that lies flat against their bodies and repels water. Golden retrievers are well suited to residency in suburban or country environments.[4] They shed copiously, particularly at the change of seasons, and require fairly regular grooming. The Golden Retriever was originally bred in Scotland in the mid-19th century."
+    }
+  ],
+  "cats": [
+    {
+      "name": "Khao Manee",
+      "url": "https://github.com/puje/asdjhajk/dobermin.jpeg",
+      "description": "The Khao Manee cat (Thai: ขาวมณี, RTGS: Khao Mani, lit. "white gem"), or Khao Plort (Thai: ขาวปลอด, lit. "complete white"), also known as the Diamond Eye cat, is a rare breed of cat originating in Thailand, which has an ancient ancestry tracing back hundreds of years. They are mentioned in the Tamra Maew, or Cat Book Poems. Khao Manee cats are pure white with a short, smooth, close-lying coat. They can have blue eyes, gold eyes or odd-eyes with one of each colour. The odd-eyed Khao Manee is the rarest variety. They are muscular, athletic cats of moderate foreign type and are reputed to be active, communicative and intelligent."
+    },
+    {
+      "name": "Bengal",
+      "url": "https://github.com/puje/asdjhajk/shephard.jpeg",
+      "description": "The Bengal cat is a domesticated cat breed created from hybrids of domestic cats, especially the spotted Egyptian Mau, with the Asian leopard cat (Prionailurus bengalensis). The breed name comes from the leopard cats taxonomic name. Bengals have a wild appearance; their golden shimmer comes from their leopard cat ancestry, and their coats may show spots, rosettes, arrowhead markings, or marbling. They are an energetic breed which needs much exercise and play."
+    },
+    {
+      "name": "Siamese",
+      "url": "https://github.com/puje/asdjhajk/shephard.jpeg",
+      "description": "The Siamese cat is one of the first distinctly recognized breeds of Asian cat. Derived from the Wichianmat landrace, one of several varieties of cat native to Thailand (formerly known as Siam), the original Siamese became one of the most popular breeds in Europe and North America in the 19th century. The carefully refined, more extreme-featured, modern-style Siamese is characterized by blue almond-shaped eyes; a triangular head shape; large ears; an elongated, slender, and muscular body; and various forms of point colouration. Other than colouration, the modern-style Siamese bears little resemblance to the original stock, and the more moderate, traditional, or "old-style" Siamese, with a much rounder head and body, has been re-established by multiple registries as the Thai cat. The International Cat Association describes the modern Siamese as affectionate, social, intelligent, and playful into adulthood, often enjoying a game of fetch.[1] Siamese tend to seek human interaction and also like companionship from other cats."
+    },
+    {
+      "name": "Sphynx",
+      "url": "https://github.com/puje/asdjhajk/shephard.jpeg",
+      "description": "The Sphynx cat, or simply Sphynx, is a breed of cat known for its lack of fur. Hairlessness in cats is a naturally occurring genetic mutation, and the Sphynx was developed through selective breeding of these animals, starting in the 1960s.[1] According to breed standards, the skin should have the texture of chamois leather, as it has fine hairs, or the cat may be completely hairless. Whiskers may be present, either whole or broken, or may be totally absent. The cats have a narrow, long head and webbed feet. Their skin is the color that their fur would be, and all the usual cat markings (solid, point, van, tabby, tortie, etc.) may be found on the Sphynx cats skin. Because they have no fur they lose more body heat than coated cats which makes them warm to the touch and prone to finding warm places."
+    },
+    {
+      "name": "Persian",
+      "url": "https://github.com/puje/asdjhajk/shephard.jpeg",
+      "description": "The Persian cat (گربه ایرانی) is a long-haired breed of cat characterized by its round face and short muzzle. It is also known as the "Persian Longhair" in the English-speaking countries. The first documented ancestors of the Persian were imported into Italy from Persia around 1620.Recognized by the cat fancy since the late 19th century, it was developed first by the English, and then mainly by American breeders after the Second World War. Some cat fancier organizations breed standards subsume the Himalayan and Exotic Shorthair as variants of this breed, while others treat them as separate breeds. The selective breeding carried out by breeders has allowed the development of a wide variety of coat colors, but has also led to the creation of increasingly flat-faced Persians. Favored by fanciers, this head structure can bring with it a number of health problems. As is the case with the Siamese breed, there have been efforts by some breeders to preserve the older type of cat, the traditional breed, having a more pronounced muzzle, which is more popular with the general public. Hereditary polycystic kidney disease is prevalent in the breed, affecting almost half the population in some countries."
+    }
+  ]
+}
